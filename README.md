@@ -15,9 +15,20 @@ A RESTful API built with FastAPI for managing patient records. It supports CRUD 
 - Sort patient by height or weight
 - JSON file-based data storage
 
+# Docker 
+pull and Run using Docker
+```bash
+docker pull aaryanparave/patient-management-api
+docker run -p 8000:8000 aaryanparave/patient-management-api
+```
+API availabe at
+Open: http://localhost:8000
+Docs availabe at
+Open: http://localhost:8000/docs
+
 ## Run Locally
 
-1. Clone the repo
+1. Clone the repository
 ```bash
 git clone git@github.com:Aaryan-Parave/patient-management-api.git
 ```
@@ -25,7 +36,7 @@ git clone git@github.com:Aaryan-Parave/patient-management-api.git
 2. Create virtual environment
 ```bash
 python -m venv myenv
-myenv\Scripts\activate
+source myenv\Scripts\activate
 ```
 
 3. Install dependencies
